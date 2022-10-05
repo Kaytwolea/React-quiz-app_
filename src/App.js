@@ -80,7 +80,7 @@ function App() {
 
   return (
     <div className='App'>
-        <div className='md:w-3/4 w-full mainbox mx-auto h-auto bg-blue-900 md:mt-32 grid grid-col-span-2 md:grid-cols-2'>
+        <div className='md:w-3/4 w-full mainbox h-auto bg-blue-900 grid grid-col-span-2 md:grid-cols-2'>
            <div className="bg-transparent pt-12 pl-6 h-96">
                <h1 className="md:text-4xl md:text-left text-center text-xl font-bold text-white">Question {currentQuestion +1} / {questionData.length}</h1>
               <p className='text-3xl md:mr-20 mt-16 font-semibold md:text-left text-center  text-white'>{questionData[currentQuestion].Questions}</p>
